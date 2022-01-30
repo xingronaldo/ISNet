@@ -61,7 +61,7 @@ python test.py --dataset LEVIR-CD --name LEVIR-CD --load_pretrain True --which_e
 ```python
 python trainval.py --dataset SV --name SV 
 ```
-All the hyperparameters are in `./config`.
+All the hyperparameters can be adjusted in `./config`.
 
 
 
