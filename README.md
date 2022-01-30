@@ -33,11 +33,15 @@ All other dependencies can be installed via 'pip'.
 Download data and add them to `./datasets`. 
 
 The data structure for the Season-Varying dataset has been already given in that folder. 
-The LEVIR-CD dataset share the same data structure. Note that the instances in original LEVIR-CD dataset are cropped from 512×512 to 256×256.
+
+The LEVIR-CD dataset share the same data structure. 
+
+Note that the instances in original LEVIR-CD dataset are cropped from 512×512 to 256×256.
 
 
 ## * Test
 You can download our pretrained models for Season-Varying and LEVIR-CD from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ), respectively. 
+
 Then put them in `./checkpoints/SV/trained_models` and `./checkpoints/LEVIR-CD/trained_models`, separately.
 
 * Test on the Season-Varying dataset
