@@ -51,7 +51,7 @@ Then put them in `./checkpoints/SV/trained_models` and `./checkpoints/LEVIR-CD/t
 python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
 ```
 
-* Test on the Season-Varying dataset
+* Test on the LEVIR-CD dataset
 
 ```python
 python test.py --dataset LEVIR-CD --name LEVIR-CD --load_pretrain True --which_epoch 255
