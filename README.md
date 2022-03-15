@@ -35,9 +35,9 @@ Download data and add them to `./datasets`.
 
 The data structure for the Season-Varying dataset has been already given in that folder. 
 
-The LEVIR-CD dataset share the same data structure. 
+The LEVIR-CD dataset and the SYSU-CD dataset share the same data structure. 
 
-Note that the instances in original LEVIR-CD dataset are cropped from 512×512 to 256×256.
+Note that the instances in original LEVIR-CD dataset are cropped from 1024×1024 to 256×256.
 
 
 ## * Test
