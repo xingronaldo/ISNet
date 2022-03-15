@@ -41,9 +41,10 @@ Note that the instances in original LEVIR-CD dataset are cropped from 1024×1024
 
 
 ## * Test
-You can download our pretrained models for Season-Varying and LEVIR-CD from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ), respectively. 
+You can download our pretrained models for Season-Varying, LEVIR-CD and SYSU-CD from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1CDkcUUpdd0w9tz4fe7no0A)， respectively. 
 
-Then put them in `./checkpoints/SV/trained_models` and `./checkpoints/LEVIR-CD/trained_models`, separately.
+
+Then put them in `./checkpoints/SV/trained_models`, `./checkpoints/LEVIR-CD/trained_models` and `./checkpoints/SYSU-CD/trained_models`, separately.
 
 * Test on the Season-Varying dataset
 
@@ -55,6 +56,12 @@ python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
 
 ```python
 python test.py --dataset LEVIR-CD --name LEVIR-CD --load_pretrain True --which_epoch 255
+```
+
+* Test on the LEVIR-CD dataset
+
+```python
+python test.py --dataset SYSU-CD --name SYSU-CD --load_pretrain True --which_epoch 57
 ```
 
 ## * Train & Validation
