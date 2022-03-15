@@ -58,7 +58,7 @@ python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
 python test.py --dataset LEVIR-CD --name LEVIR-CD --load_pretrain True --which_epoch 255
 ```
 
-* Test on the LEVIR-CD dataset
+* Test on the SYSU-CD dataset
 
 ```python
 python test.py --dataset SYSU-CD --name SYSU-CD --load_pretrain True --which_epoch 57
