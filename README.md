@@ -23,7 +23,7 @@ cd DCNv2
 python setup.py build develop
 cd ..
 ```
-Attention: GTX/RTX series GPUs may fail to compile DCNv2. TITAN/Tesla series GPUs are recommended.
+**Attention:** GTX/RTX series GPUs may fail to compile DCNv2. TITAN/Tesla series GPUs are recommended.
 
 
 * Install other dependencies
@@ -70,7 +70,7 @@ python trainval.py --dataset SV --name SV
 ```
 All the hyperparameters can be adjusted in `./config`.
 
-During training, the occupied GPU memory is around 3357MB when batch size is 8, and around 4101MB when batch size is 16, on single TITAN X. 
+During training, the occupied GPU memory is around **3357MB** when batch size is 8, and around **4101MB** when batch size is 16, on single TITAN X. 
 
 
 ## * Supplement
