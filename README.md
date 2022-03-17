@@ -41,16 +41,11 @@ Note that the instances in original LEVIR-CD dataset are cropped from 1024×1024
 
 
 ## Test
-You can download our pretrained models for Season-Varying, LEVIR-CD and SYSU-CD from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1CDkcUUpdd0w9tz4fe7no0A), respectively. 
+You can download our pretrained models for LEVIR-CD, SYSU-CD and Season-Varying from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1CDkcUUpdd0w9tz4fe7no0A) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg), respectively. 
 
 
-Then put them in `./checkpoints/SV/trained_models`, `./checkpoints/LEVIR-CD/trained_models` and `./checkpoints/SYSU-CD/trained_models`, separately.
+Then put them in `./checkpoints/LEVIR-CD/trained_models`, `./checkpoints/SYSU-CD/trained_models` and `./checkpoints/SV/trained_models`, separately.
 
-* Test on the Season-Varying dataset
-
-```python
-python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
-```
 
 * Test on the LEVIR-CD dataset
 
@@ -64,6 +59,12 @@ python test.py --dataset LEVIR-CD --name LEVIR-CD --load_pretrain True --which_e
 python test.py --dataset SYSU-CD --name SYSU-CD --load_pretrain True --which_epoch 57
 ```
 
+* Test on the Season-Varying dataset
+
+```python
+python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
+```
+
 ## Train & Validation
 ```python
 python trainval.py --dataset SV --name SV 
@@ -74,11 +75,16 @@ All the hyperparameters can be adjusted in `./config`.
 During training, the occupied GPU memory is around **3357MB** when batch size is 8, and around **4101MB** when batch size is 16, on single TITAN X. 
 
 Time comparison for ISNet and ISNet-lw is given below.
-![](https://github.com/xingronaldo/ISNet/tree/main/ISNet-lw/img/Time_Comparison.png)
+
+<table cellpadding="0" cellspacing="0">
+  <tr>
+    <td  align="center">prediction <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=450px></td>
+  </tr>
+</table>
 
 
 ## Supplement
-You can download all predictions (as shown as the left, below) of our ISNet for Season-Varying, LEVIR-CD and SYSU-CD test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA), respectively. 
+You can download all predictions (as shown as the left, below) of our ISNet for LEVIR-CD, SYSU-CD and Season-Varying test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), respectively. 
 
 To obtain marked predictions (as shown as the right, below) , use the code in `./ISNet/util/mark_prediction.py`.
 
