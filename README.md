@@ -76,8 +76,7 @@ During training, the occupied GPU memory is around **3357MB** when batch size is
 ## * Supplement
 You can download all predictions (shown as left, below) of our ISNet for Season-Varying, LEVIR-CD and SYSU-CD test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA), respectively. 
 
-![img](https://github.com/xingronaldo/ISNet/tree/main/ISNet/predictions/ISNet.png "raw_prediction") 
-![img](https://github.com/xingronaldo/ISNet/tree/main/ISNet/predictions/ISNet_marked.png "marked_prediction")
+![](https://github.com/xingronaldo/ISNet/blob/master/prediction.png) ![](https://github.com/xingronaldo/ISNet/blob/master/marked_prediction.png)
 
 ## * Contact
 Don't hesitate to contact me if you have any questions.
