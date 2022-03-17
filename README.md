@@ -78,7 +78,7 @@ Time comparison for ISNet and ISNet-lw is given below.
 
 <table cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td  align="center">time comparison <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=800px></td>
+    <td  align="center">Time Comparison <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=900px></td>
   </tr>
 </table>
 
@@ -88,10 +88,10 @@ You can download all predictions (as shown as the left, below) of our ISNet for 
 
 To obtain marked predictions (as shown as the right, below) , use the code in `./ISNet/util/mark_prediction.py`.
 
-<table cellpadding="0" cellspacing="0">
+<table cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td  align="center">prediction <br> <img src="ISNet/predictions/prediction.png"  width=250px></td>
-    <td  align="center">marked prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=250px></td>
+    <td  align="center">Prediction <br> <img src="ISNet/predictions/prediction.png"  width=250px></td>
+    <td  align="center">Marked Prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=250px></td>
   </tr>
 </table>
 
