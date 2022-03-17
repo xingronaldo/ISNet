@@ -78,7 +78,7 @@ Time comparison for ISNet and ISNet-lw is given below.
 
 <table cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td  align="center">prediction <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=1000px></td>
+    <td  align="center">time comparison <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=800px></td>
   </tr>
 </table>
 
