@@ -80,8 +80,8 @@ To obtain marked predictions, use the code in `./ISNet/util/mark_prediction.py`.
 
 <table cellpadding="0" cellspacing="0">
   <tr>
-    <td  align="center">prediction <br> <img src="ISNet/predictions/prediction.png"  width=300px></td>
-    <td  align="center">marked prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=300px></td>
+    <td  align="center">prediction <br> <img src="ISNet/predictions/prediction.png"  width=250px></td>
+    <td  align="center">marked prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=250px></td>
   </tr>
 </table>
 
