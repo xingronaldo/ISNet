@@ -78,6 +78,13 @@ You can download all predictions of our ISNet for Season-Varying, LEVIR-CD and S
 
 To obtain marked predictions, use the code in `./ISNet/util/mark_prediction.py`.
 
+<table cellpadding="0" cellspacing="0" >
+  <tr>
+    <td  align="center">prediction <br> <img src="ISNet/predictions/prediction.png"  width=240px></td>
+    <td  align="center">marked prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=240px></td>
+  </tr>
+</table>
+
 ## Contact
 Don't hesitate to contact me if you have any questions.
 
