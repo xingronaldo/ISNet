@@ -76,9 +76,9 @@ During training, the occupied GPU memory is around **3357MB** when batch size is
 
 Time comparison for ISNet and ISNet-lw is given below.
 
-<table cellpadding="0" cellspacing="0">
+<table cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td  align="center">prediction <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=450px></td>
+    <td  align="center">prediction <br> <img src="ISNet-lw/img/Time_Comparison.png"  width=1000px></td>
   </tr>
 </table>
 
