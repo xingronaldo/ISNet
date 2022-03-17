@@ -73,8 +73,8 @@ All the hyperparameters can be adjusted in `./config`.
 **logs:**
 During training, the occupied GPU memory is around **3357MB** when batch size is 8, and around **4101MB** when batch size is 16, on single TITAN X. 
 
-Time comparison for ISNet and ISNet is given below.
-![](https://github.com/xingronaldo/ISNet/ISNet-lw/img/Time_Comparison.png)
+Time comparison for ISNet and ISNet-lw is given below.
+![](https://github.com/xingronaldo/ISNet/tree/main/ISNet-lw/img/Time_Comparison.png)
 
 
 ## Supplement
