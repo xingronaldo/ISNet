@@ -72,9 +72,10 @@ python trainval.py --dataset SV --name SV
 All the hyperparameters can be adjusted in `./config`.
 
 **logs:**
-During training, the occupied GPU memory is around **3357MB** when batch size is 8, and around **4101MB** when batch size is 16, on single TITAN X. 
 
-Time comparison for ISNet and ISNet-lw is given below.
+1. During training, the occupied GPU memory is around **3357MB** when batch size is 8, and around **4101MB** when batch size is 16, on single TITAN X. 
+
+2. Time comparison for ISNet and ISNet-lw is given below.
 
 <table cellpadding="0" cellspacing="0" align="center">
   <tr>
