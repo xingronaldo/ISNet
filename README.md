@@ -90,6 +90,7 @@ To obtain marked predictions (as shown as the right, below) , use the code in `.
 
 <table cellpadding="0" cellspacing="0" align="center">
   <tr>
+    <td  align="center">Label <br> <img src="ISNet/predictions/label.png"  width=250px></td>
     <td  align="center">Prediction <br> <img src="ISNet/predictions/prediction.png"  width=250px></td>
     <td  align="center">Marked Prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=250px></td>
   </tr>
