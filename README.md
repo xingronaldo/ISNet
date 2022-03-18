@@ -33,11 +33,11 @@ All other dependencies can be installed via 'pip'.
 ## Dataset Preparation
 Download data and add them to `./datasets`. 
 
-The data structure for the Season-Varying dataset has been already given in that folder. 
+**Note that**
 
-The LEVIR-CD dataset and the SYSU-CD dataset share the same data structure. 
+1. The data structure for the Season-Varying dataset has been already given in that folder. The LEVIR-CD dataset and the SYSU-CD dataset share the same data structure. 
 
-Note that the instances in original LEVIR-CD dataset are cropped from 1024×1024 to 256×256.
+2. The instances in original LEVIR-CD dataset are cropped from 1024×1024 to 256×256.
 
 
 ## Test
