@@ -84,9 +84,9 @@ Time comparison for ISNet and ISNet-lw is given below.
 
 
 ## Supplement
-You can download all predictions (as shown as the left, below) of our ISNet for LEVIR-CD, SYSU-CD and Season-Varying test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), respectively. 
+You can download all predictions (in the form of the middle, below) of our ISNet for LEVIR-CD, SYSU-CD and Season-Varying test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), respectively. 
 
-To obtain marked predictions (as shown as the right, below) , use the code in `./ISNet/util/mark_prediction.py`.
+To obtain marked predictions (in the form of the right, below) , use the code in `./ISNet/util/mark_prediction.py`.
 
 <table cellpadding="0" cellspacing="0" align="center">
   <tr>
