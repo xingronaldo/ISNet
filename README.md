@@ -41,10 +41,10 @@ Download data and add them to `./datasets`.
 
 
 ## Test
-You can download our pretrained models for LEVIR-CD, SYSU-CD and Season-Varying from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1CDkcUUpdd0w9tz4fe7no0A) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg), respectively. 
+You can download our pretrained models for LEVIR-CD, SYSU-CD, and Season-Varying from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1DTazE7I3lhELPRZr5oyniQ), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1CDkcUUpdd0w9tz4fe7no0A), and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1rux9Zxjc8yGsga28CSD0kg), respectively. 
 
 
-Then put them in `./checkpoints/LEVIR-CD/trained_models`, `./checkpoints/SYSU-CD/trained_models` and `./checkpoints/SV/trained_models`, separately.
+Then put them in `./checkpoints/LEVIR-CD/trained_models`, `./checkpoints/SYSU-CD/trained_models`, and `./checkpoints/SV/trained_models`, separately.
 
 
 * Test on the LEVIR-CD dataset
@@ -85,7 +85,7 @@ All the hyperparameters can be adjusted in `./config`.
 
 
 ## Supplement
-You can download all predictions (in the form of the middle, below) of our ISNet for LEVIR-CD, SYSU-CD and Season-Varying test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA) and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), respectively. 
+You can download all predictions (in the form of the middle, below) of our ISNet for LEVIR-CD, SYSU-CD, and Season-Varying test sets from [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/11QsyHkzwlaYGEmlysQL6Uw), [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/1Wl4Iq_tee3Lhx6pa3FqnXA), and [Baidu Netdisk, code: tgrs](https://pan.baidu.com/s/194O19U0I3Pq766cggjmQTQ), respectively. 
 
 To obtain marked predictions (in the form of the right, below) , use the code in `./ISNet/util/mark_prediction.py`.
 
@@ -98,7 +98,7 @@ To obtain marked predictions (in the form of the right, below) , use the code in
 </table>
 
 ## Contact
-Don't hesitate to contact me if you have any questions.
+Don't hesitate to contact me if you have any question.
 
 Email: guangxingwang@mail.nwpu.edu.cn
 
