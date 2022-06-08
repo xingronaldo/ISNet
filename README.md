@@ -98,16 +98,16 @@ To obtain marked predictions (in the form of the right, below) , use the code in
 </table>
 
 ## Citation
-@article{Cheng2022ISNet,
-title={ISNet: Towards Improving Separability for Remote Sensing Image Change Detection}, 
-author={Cheng, Gong and Wang, Guangxing and Han, Junwei},
-journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-volume={60},
-number={},
-pages={},
-doi={10.1109/TGRS.2022.3174276},
-year={2022}
-}
+@article{Cheng2022ISNet, <br>
+>title={ISNet: Towards Improving Separability for Remote Sensing Image Change Detection}, <br> 
+>author={Cheng, Gong and Wang, Guangxing and Han, Junwei}, <br>
+>journal={IEEE Transactions on Geoscience and Remote Sensing}, <br>
+>volume={60}, <br>
+>number={}, <br>
+>pages={}, <br>
+>doi={10.1109/TGRS.2022.3174276}, <br>
+>year={2022} <br>
+>} <br>
 
 ## Contact
 Don't hesitate to contact me if you have any question.
