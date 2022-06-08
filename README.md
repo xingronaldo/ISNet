@@ -1,4 +1,4 @@
-# Code for ISNet & ISNet-lw.
+# Code for TGRS article 'ISNet: Towards Improving Separability for Remote Sensing Image Change Detection'.
 ---------------------------------------------
 Here I provide PyTorch implementations for ISNet and ISNet-lw.
 
@@ -96,6 +96,18 @@ To obtain marked predictions (in the form of the right, below) , use the code in
     <td  align="center">Marked Prediction <br> <img src="ISNet/predictions/marked_prediction.png" width=225px></td>
   </tr>
 </table>
+
+## Citation
+@article{Cheng2022ISNet,
+title={ISNet: Towards Improving Separability for Remote Sensing Image Change Detection}, 
+author={Cheng, Gong and Wang, Guangxing and Han, Junwei},
+journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+volume={60},
+number={},
+pages={},
+doi={10.1109/TGRS.2022.3174276},
+year={2022}
+}
 
 ## Contact
 Don't hesitate to contact me if you have any question.
