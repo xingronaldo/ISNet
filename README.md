@@ -69,7 +69,7 @@ python test.py --dataset SV --name SV --load_pretrain True --which_epoch 194
 ```python
 python trainval.py --dataset SV --name SV 
 ```
-All the hyperparameters can be adjusted in `./config`.
+All the hyperparameters can be adjusted in `./option`.
 
 **logs:**
 
